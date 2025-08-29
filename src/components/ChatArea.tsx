@@ -19,7 +19,7 @@ export const ChatArea: React.FC<ChatAreaProps> = ({ messages, isLoading }) => {
       <div className="flex-1 flex items-center justify-center">
         <div className="text-center text-gray-400 max-w-md">
           <div className="text-6xl mb-4">🤖</div>
-          <h3 className="text-xl font-semibold mb-2">Welcome to AI Assistant</h3>
+          <h3 className="text-xl font-semibold mb-2">Chotu madarchod</h3>
           <p className="text-sm">
             Select a model above and start a conversation. Ask me anything!
           </p>
