@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: web
-          image: ${{ secrets.DOCKER_USERNAME}}/ai-assistant-client:v1
+          image: iamvegetaaj/ai-assistant-client:v1
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 80
