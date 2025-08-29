@@ -32,16 +32,16 @@ export const MessageBubble: React.FC<MessageBubbleProps> = ({ message }) => {
           <Bot className="w-4 h-4 text-white" />
         )}
       </div>
-      
+
       <div className={`
         max-w-[80%] px-4 py-3 rounded-2xl relative
-        ${isUser 
-          ? 'bg-blue-500 text-white rounded-tr-md' 
+        ${isUser
+          ? 'bg-blue-500 text-white rounded-tr-md'
           : 'bg-white/90 backdrop-blur-sm text-gray-800 rounded-tl-md border border-gray-200'
         }
       `}>
         <div className="whitespace-pre-wrap break-words">{message.content}</div>
-        
+
         {!isUser && (
           <button
             onClick={handleCopy}

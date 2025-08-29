@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: web
-          image: iamvegetaaj/ai-assistant-client:v1
+          image: iamvegetaaj/ai-assistant-client:v2
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 80
