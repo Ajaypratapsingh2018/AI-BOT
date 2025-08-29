@@ -7,7 +7,7 @@ metadata:
     nginx.ingress.kubernetes.io/rewrite-target: /$1
 spec:
   rules:
-    - host: 157.98.98.155.nip.io
+    - host: IP.nip.io
       http:
         paths:
           - path: /(.*)
